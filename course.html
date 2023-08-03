@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/154ee8df1a.js" crossorigin="anonymous"></script>
+    <title>University Site</title>
+</head>
+<body>
+    <!--Header-->
+    <section class="sub-header">
+        <nav>
+              <a href="index.html"><img src="img/logo.png" alt="logo"></a>  
+              <div class="nav-links" id="navLinks">
+                <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+              </div>
+              <i class=" fa fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+        <h1>Our Courses</h1>
+    </section>
+
+    <!--Courses-->
+    
+    <section class="course">
+
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, neque.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quas nobis fugit, officiis veniam eaque magnam totam. Architecto, iure possimus aut vel exercitationem dolores accusantium itaque! Cupiditate aliquid assumenda beatae.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quas nobis fugit, officiis veniam eaque magnam totam. Architecto, iure possimus aut vel exercitationem dolores accusantium itaque! Cupiditate aliquid assumenda beatae.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quas nobis fugit, officiis veniam eaque magnam totam. Architecto, iure possimus aut vel exercitationem dolores accusantium itaque! Cupiditate aliquid assumenda beatae.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Facilities-->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="img/library.png" alt="">
+                <h3>World Class Liberary</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="img/basketball.png" alt="">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="img/cafeteria.png" alt="">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </section>
+    
+    
+
+   
+    <!--Footer-->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam in expedita maxime vel,<br> quasi eius quisquam aliquid, ab necessitatibus consectetur quaerat ad nemo.</p>
+
+        <div class="icons">
+            <i class="fa fa-brands fa-facebook"></i>
+            <i class="fa fa-brands fa-twitter"></i>
+            <i class="fa fa-brands fa-instagram"></i>
+            <i class="fa fa-brands fa-linkedin"></i>
+        </div>
+
+        <p>Made with <i class="fa-regular fa-heart"></i> by Mahatav Kapoor</p>
+    </section>
+
+    <script>
+        
+        var navLinks = document.getElementById("navLinks");
+        
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
